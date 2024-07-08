@@ -14,16 +14,12 @@ public class StackApp {
         //Instancier une nouvelle Stack(Pile) sur le theme de votre choix
         Stack<String> stack = new Stack<String>();
         
-
         //Ajouter des valeurs dans votre stack
         stack.push("lolipop");  //.PUSH
         stack.push("chewing-gum");
         stack.push("marshmallow");
         stack.push("smurf"); 
         stack.push("tagada");
-        
-        //Ajouter une valeur au début de la stack
-        stack.addFirst("crocodile");  //.ADDFIRST
 
         //Afficher votre stack
         System.out.println("Voici les éléments de notre Stack: " + stack);
@@ -37,10 +33,10 @@ public class StackApp {
 
         //Supprimer le premier élément de votre stack
         System.out.println("Suppression du premier élément");
-        stack.removeFirst();  //.REMOVEFIRST()
+        // stack.removeFirst();  //.REMOVEFIRST()
 
         //Afficher le premier élément de votre stack
-        System.out.println("Affichage du premier élément: " + stack.getFirst());  //.GETFIRST()
+        System.out.println("Affichage du premier élément: " + stack.get(0));  //.GETFIRST()
        
         //Chercher et affichez la position d'un de vos éléments (la valeur indiquera la position de l'élément par rapport au dessus de la stack)
         System.out.println("L'élément est en " + stack.search("smurf") + "eme position par rapport au dessus de la Stack");   //.SEARCH()
