@@ -18,11 +18,14 @@ public class StackApp {
         stack.push("lolipop");  //.PUSH
         stack.push("chocolat praliné");
         stack.push("Réglisse");
+        stack.push("chocolat");
         stack.push("chewing-gum");
         stack.push("marshmallow");
         stack.push("smurf"); 
         stack.push("tagada");
         stack.push("nougat");
+        stack.push("dragibus");
+
 
         //Afficher votre stack
         System.out.println("Voici les éléments de notre Stack: " + stack);
@@ -39,7 +42,7 @@ public class StackApp {
         // stack.removeFirst();  //.REMOVEFIRST()
 
         //Afficher le premier élément de votre stack
-        System.out.println("Affichage du premier élément: " + stack.get(0));  //.GETFIRST()
+        System.out.println("Affichage du premier élément: " + stack.get(0));  //.GET(index)
        
         //Chercher et affichez la position d'un de vos éléments (la valeur indiquera la position de l'élément par rapport au dessus de la stack)
         System.out.println("L'élément est en " + stack.search("smurf") + "eme position par rapport au dessus de la Stack");   //.SEARCH()
