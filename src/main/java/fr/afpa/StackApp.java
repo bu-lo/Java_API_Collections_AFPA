@@ -16,14 +16,11 @@ public class StackApp {
         
         //Ajouter des valeurs dans votre stack
         stack.push("lolipop");  //.PUSH
-        stack.push("chocolat praliné");
-        stack.push("Réglisse");
-        stack.push("chocolat");
+        stack.push("chocolate");
         stack.push("chewing-gum");
         stack.push("marshmallow");
         stack.push("smurf"); 
         stack.push("tagada");
-        stack.push("nougat");
         stack.push("dragibus");
 
 
